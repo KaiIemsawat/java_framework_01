@@ -8,6 +8,7 @@ public class ShoppingBalanceDemo {
 
         ShoppingBalance balance02 = ShoppingBalance.getInstance();
         balance02.buy("item:2", 800.00);
+//        balance01.buy("item:2", 800.00); // <--- this will give the same result as above since they are actually the same object
 
         System.out.println("-----------------------------------");
 
