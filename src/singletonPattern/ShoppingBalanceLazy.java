@@ -1,4 +1,19 @@
+package singletonPattern;
+
 public class ShoppingBalanceLazy {
+    /*
+    •Another technique is to delay creation of the singleton until the
+    first time the getInstance() method is called.
+    •It used often together with the singleton pattern.
+    •For example, you may have seen lazy instantiation in app you
+    use everyday. Eclipse, often demonstrates a slight delay the first
+    time you open a Java file in an editor window after starting the
+    program. This delay disappears, though, when you open
+    additional Java files. This is an example of lazy instantiation,
+    since Eclipse is only loading the libraries to parse and present
+    Java files the first time a Java file is open.
+    */
+
     private double balance;
     private static ShoppingBalanceLazy instance;
 
@@ -26,6 +41,6 @@ public class ShoppingBalanceLazy {
         balance = balance - price;
         System.out.println("Bought : " + item);
         System.out.println("Price : " + price);
-        System.out.println("Remaining balance : " + balance);
+        System.out.println("Remaining balance --> " + balance);
     }
 }

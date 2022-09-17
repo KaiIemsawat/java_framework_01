@@ -1,5 +1,5 @@
 Pattern
-Singleton Pattern and Lazy Instantiation
+singletonPattern Pattern and Lazy Instantiation
 Immutable Objects Pattern
 Builder Pattern
 Factory Pattern

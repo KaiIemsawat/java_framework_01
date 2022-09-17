@@ -1,3 +1,5 @@
+package singletonPattern;
+
 public class ShoppingBalance {
     /*
     A private constructor in Java is used in restricting object creation.
@@ -38,6 +40,6 @@ public class ShoppingBalance {
         balance = balance - price;
         System.out.println("Bought : " + item);
         System.out.println("Price : " + price);
-        System.out.println("Remaining balance : " + balance);
+        System.out.println("Remaining balance --> " + balance);
     }
 }
